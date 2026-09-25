@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>APEX AEROSPACE — Own The Sky | 5th-Gen Fighter Jets For Sale</title>
+<meta name="description" content="APEX Aerospace: the world's premier private marketplace for 4th & 5th generation fighter jets. F-35, F-22, Rafale, Typhoon, Su-57. Inspected, escrowed, delivered worldwide." />
+<meta name="theme-color" content="#07090e" />
+<meta property="og:title" content="APEX AEROSPACE — Own The Sky" />
+<meta property="og:description" content="12 combat-proven fighters in stock. Inspected, escrowed, delivered in 45 days." />
+<meta property="og:type" content="website" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23f5c044'/%3E%3Cpath d='M8 34 L26 31 L46 30 L56 34 L46 38 L26 37 Z' fill='%23141006'/%3E%3C/svg%3E">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Store","name":"APEX Aerospace","description":"Private marketplace for modern fighter jets","currenciesAccepted":"USD"}</script>
+</head>
+<body>
+<div id="preloader" aria-hidden="true"><div class="pre-inner"><div class="pre-mark">▲</div><div class="pre-bar"><i id="preBar"></i></div><div class="pre-txt">SPOOLING ENGINES…</div></div></div>
+<div class="scroll-progress" id="scrollProgress"></div>
+<div class="bg-grid" aria-hidden="true"></div>
+<div class="bg-glow" aria-hidden="true"></div>
+<div class="noise" aria-hidden="true"></div>
+
+<div class="ticker" aria-label="Market updates">
+  <div class="ticker-fade l"></div><div class="ticker-fade r"></div>
+  <div class="ticker-track" id="tickerTrack">
+    <span><i>◆</i> F-35A BLOCK 4 — 2 UNITS, MOJAVE</span><span><i>◆</i> CONGRESSIONAL WAIVER: 1× F-22 CLEARED</span><span><i>◆</i> NEW: KF-21 BORAMAE — $65M</span><span><i>◆</i> 47 JETS DELIVERED • 99% CLEARANCE</span><span><i>◆</i> FERRY DELIVERY IN 45 DAYS WORLDWIDE</span>
+    <span><i>◆</i> F-35A BLOCK 4 — 2 UNITS, MOJAVE</span><span><i>◆</i> CONGRESSIONAL WAIVER: 1× F-22 CLEARED</span><span><i>◆</i> NEW: KF-21 BORAMAE — $65M</span><span><i>◆</i> 47 JETS DELIVERED • 99% CLEARANCE</span><span><i>◆</i> FERRY DELIVERY IN 45 DAYS WORLDWIDE</span>
+  </div>
+</div>
+
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="brand" aria-label="APEX home">
+      <div class="brand-mark">▲</div>
+      <div><div class="brand-title">APEX <span>AEROSPACE</span></div><div class="brand-sub">DEFENSE BROKERAGE • EST. 2009 • DDTC #M-4821</div></div>
+    </a>
+    <nav class="nav-links" id="navLinks" aria-label="Primary">
+      <a href="#fleet">Fleet</a><a href="#flagship">Flagship</a><a href="#compare">Compare</a><a href="#financing">Financing</a><a href="#services">Services</a><a href="#faq">FAQ</a>
+    </nav>
+    <div class="nav-actions">
+      <div class="nav-status" title="Live inventory"><span class="pulse sm"></span><span id="navStock">12 jets live</span></div>
+      <button class="icon-btn" id="themeBtn" title="Toggle theme" aria-label="Toggle theme">◐</button>
+      <button class="cart-btn" id="cartOpen" aria-label="Open cart">🛒 Hangar <b id="cartCount">0</b></button>
+    </div>
+    <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <canvas id="heroCanvas" aria-hidden="true"></canvas>
+  <div class="orb o1"></div><div class="orb o2"></div>
+  <div class="container hero-inner">
+    <div class="hero-left">
+      <div class="kicker"><span class="pulse"></span> LIVE INVENTORY • FAA / EASA FERRY APPROVED • 47 DELIVERED <span class="kicker-live" id="kickerClock">--:-- UTC</span></div>
+      <h1>OWN THE<br><span class="grad-gold">SKY.</span> <span class="stroke">NO</span><br>PERMISSION <span class="grad-gold">NEEDED.</span></h1>
+      <p class="hero-desc">The only private marketplace for combat-proven 4th &amp; 5th-gen fighters. Borescope-inspected, logbook-verified, test-flown by ex-USAF acceptance pilots — escrowed via Lloyd's, delivered worldwide in 45 days.</p>
+      <div class="hero-cta">
+        <a href="#fleet" class="btn btn-gold magnetic">Browse 12 Jets <span aria-hidden="true">→</span></a>
+        <button class="btn btn-ghost magnetic" id="heroConfigure">⚙ Build Your Package</button>
+      </div>
+      <div class="hero-micro"><span>⏱ Reply in 2h</span><span>🛡 Escrow protected</span><span>✈ Acceptance flight included</span></div>
+      <div class="hero-stats">
+        <div class="hstat"><strong><span data-count="12">0</span></strong><span>Jets in stock</span></div>
+        <div class="hstat"><strong><span data-count="47">0</span></strong><span>Delivered</span></div>
+        <div class="hstat"><strong><span data-count="18">0</span></strong><span>Countries</span></div>
+        <div class="hstat"><strong><span data-count="99">0</span><em>%</em></strong><span>Clearance</span></div>
+      </div>
+      <div class="hero-trust"><span>✓ DDTC Registered</span><span>✓ OEM Parts</span><span>✓ Lloyd's Escrow</span><span>✓ 2 Pilots Trained</span></div>
+    </div>
+    <div class="hero-right">
+      <div class="flag-card tilt" id="flagCard">
+        <div class="flag-top"><span class="flag-badge">◈ FEATURED // F-35A LIGHTNING II</span><span class="flag-live"><span class="pulse sm red"></span> AVAILABLE</span></div>
+        <div class="flag-visual">
+          <div class="corner c1"></div><div class="corner c2"></div><div class="corner c3"></div><div class="corner c4"></div>
+          <div class="jet-svg-wrap">
+            <svg viewBox="0 0 440 160" class="jet-big" aria-hidden="true">
+              <defs>
+                <linearGradient id="jg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f2f6fc"/><stop offset=".5" stop-color="#93a0b8"/><stop offset="1" stop-color="#333d52"/></linearGradient>
+                <radialGradient id="ab" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#ffd97a"/><stop offset="1" stop-color="transparent"/></radialGradient>
+              </defs>
+              <ellipse cx="392" cy="82" rx="34" ry="12" fill="url(#ab)" class="ab-glow"/>
+              <path d="M12 82 L112 71 L232 69 L408 82 L232 95 L112 93 Z" fill="url(#jg)"/>
+              <path d="M182 69 L217 20 L234 20 L207 69 Z" fill="#c2ccdd"/>
+              <path d="M212 95 L247 133 L264 133 L230 95 Z" fill="#69758c"/>
+              <path d="M252 76 L342 51 L352 53 L262 82 Z" fill="#a7b2c6"/>
+              <path d="M252 88 L342 113 L352 111 L262 82 Z" fill="#5d6a82"/>
+              <ellipse cx="232" cy="82" rx="48" ry="11" fill="#0b0f17"/>
+              <ellipse cx="232" cy="80" rx="20" ry="5" fill="#1b2434"/>
+              <circle cx="302" cy="82" r="4.5" fill="#f5c044"/>
+              <rect x="406" y="79" width="14" height="6" rx="3" fill="#ffb03a"/>
+            </svg>
+          </div>
+          <div class="runway"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <div class="flag-specs">
+            <div><label>MACH</label><strong>1.6</strong></div>
+            <div><label>RANGE</label><strong>2,800 km</strong></div>
+            <div><label>STEALTH</label><strong class="gold-text">98 / 100</strong></div>
+            <div><label>GEN</label><strong>5TH ★</strong></div>
+          </div>
+        </div>
+        <div class="flag-body">
+          <div class="flag-price-row">
+            <div><small>FLYAWAY • FERRY INCL.</small><div class="flag-price" data-price>$82,500,000</div><div class="flag-sub">or $808,500/mo • 10yr, 30% down</div></div>
+            <div class="flag-rating"><div class="stars">★★★★★</div><b>4.98</b> <span>(31 buyers)</span></div>
+          </div>
+          <div class="stockline"><span>Stock: 2 airframes</span><div class="stockbar"><i style="width:66%"></i></div></div>
+          <div class="flag-btns">
+            <button class="btn btn-gold btn-small magnetic" data-buy="F-35A Lightning II">Add to Hangar — F-35A</button>
+            <button class="btn btn-ghost btn-small" data-view="F-35A Lightning II">Full Dossier</button>
+          </div>
+          <div class="flag-note">✓ 2× F135 • AN/APG-81 AESA • HMDS • ferry + 2 pilots trained &nbsp;•&nbsp; <a href="#financing" class="link">Finance →</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-strip" aria-hidden="true"><div>LOCKHEED MARTIN</div><div>DASSAULT</div><div>EUROFIGHTER</div><div>SAAB</div><div>SUKHOI</div><div>KAI • BOEING</div></div>
+</section>
+
+<section id="fleet" class="section">
+  <div class="container">
+    <div class="sec-head reveal">
+      <div class="sec-tag"><span class="tag-num">01</span> LIVE INVENTORY — MOJAVE • 12 AIRFRAMES</div>
+      <h2>The fleet. Ready for <span class="grad-gold">immediate sale.</span></h2>
+      <p>Every airframe is borescope-inspected, logbook-verified, and acceptance-flown. Open a dossier for weapons options, provenance &amp; delivery slots.</p>
+    </div>
+    <div class="controls reveal">
+      <div class="searchbox">⌕ <input id="searchInput" type="text" placeholder="Search: F-35, Rafale, stealth, Mach 2..." autocomplete="off" aria-label="Search jets" /><kbd>⌘K</kbd><button id="clearSearch" aria-label="Clear search">✕</button></div>
+      <div class="pills" id="rolePills" role="tablist">
+        <button class="pill active" data-role="all">All</button>
+        <button class="pill" data-role="Multirole">Multirole</button>
+        <button class="pill" data-role="Air Superiority">Air Sup.</button>
+        <button class="pill" data-role="Strike">Strike</button>
+        <button class="pill" data-role="Interceptor">Interceptor</button>
+      </div>
+      <select id="genFilter" class="select" aria-label="Generation filter"><option value="all">All Generations</option><option value="5">5th Gen Only</option><option value="4.5">4.5 Gen Only</option></select>
+      <select id="sortFilter" class="select" aria-label="Sort"><option value="featured">Sort: Featured</option><option value="price-asc">Price: Low → High</option><option value="price-desc">Price: High → Low</option><option value="speed-desc">Speed: Fastest</option><option value="stealth-desc">Stealth: Highest</option><option value="rating-desc">Rating: Top</option></select>
+    </div>
+    <div class="price-row reveal">
+      <label>Max budget: <strong id="priceLabel">$150M</strong></label>
+      <input type="range" id="priceRange" min="40" max="150" step="5" value="150" aria-label="Max budget" />
+      <span class="count-badge" id="resultCount" role="status">12 / 12 jets</span>
+      <button class="btn btn-ghost btn-small" id="resetFilters">Reset ✕</button>
+      <button class="btn btn-gold btn-small" id="compareOpenBtn">⇄ Compare (<span id="cmpCount">0</span>)</button>
+    </div>
+    <div class="jet-grid" id="jetGrid" aria-live="polite"></div>
+  </div>
+</section>
+
+<section id="flagship" class="section section-dark">
+  <div class="container flag-banner">
+    <div class="reveal">
+      <div class="sec-tag amber"><span class="tag-num">02</span> FLAGSHIP — TAIL 07-4146 • BLOCK 30</div>
+      <h2>One Raptor left.<br>There won't be <span class="grad-gold">another.</span></h2>
+      <p>Line closed 2011. 1,800 hrs TT, zero over-G, fresh depot overhaul with 6,000 hrs remaining. Congressional waiver secured — the only privately transferable F-22 in history.</p>
+      <ul class="check-list">
+        <li><b>✓</b> AN/APG-77V1 AESA + sensor fusion</li>
+        <li><b>✓</b> 2× F119-PW-100 • supercruise Mach 1.8 dry</li>
+        <li><b>✓</b> Spares + simulator + 4 pilot slots included</li>
+        <li><b>✓</b> Full logbooks • NDT • acceptance flight</li>
+      </ul>
+      <div class="flag-banner-cta">
+        <button class="btn btn-gold magnetic" data-buy="F-22 Raptor">Acquire — $143M</button>
+        <button class="btn btn-ghost" data-view="F-22 Raptor">Inspect Dossier</button>
+      </div>
+      <div class="mini-guarantee">🛡 14-day lock • Lloyd's escrow • Reject = refund</div>
+    </div>
+    <div class="flag-banner-visual reveal tilt">
+      <div class="prov">PROVENANCE: USAF • HANGAR 77 • LOGS VERIFIED ✓</div>
+      <div class="big-price" data-price>$143,000,000</div>
+      <svg viewBox="0 0 440 160" class="jet-big xl" aria-hidden="true">
+        <path d="M12 82 L112 71 L232 69 L408 82 L232 95 L112 93 Z" fill="#dbe3ef"/>
+        <path d="M182 69 L217 20 L234 20 L207 69 Z" fill="#9fb0c6"/>
+        <path d="M212 95 L247 133 L264 133 L230 95 Z" fill="#4d586e"/>
+        <path d="M252 76 L347 47 L357 49 L262 82 Z" fill="#b3bfd3"/>
+        <path d="M252 88 L347 117 L357 115 L262 82 Z" fill="#4a556b"/>
+        <ellipse cx="232" cy="82" rx="48" ry="11" fill="#0b0f17"/>
+        <rect x="406" y="79" width="16" height="6" rx="3" fill="#7fd0ff"/>
+      </svg>
+      <div class="banner-stats"><div><b>MACH 2.25</b><span>top speed</span></div><div><b>65,000 FT</b><span>ceiling</span></div><div><b>1,800 HRS</b><span>TTAF</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="compare" class="section">
+  <div class="container">
+    <div class="sec-head reveal"><div class="sec-tag"><span class="tag-num">03</span> HEAD-TO-HEAD LAB</div>
+      <h2>Raptor vs Lightning? <span class="grad-gold">Settle it.</span></h2>
+      <p>Pick two below — or tap ⇄ on any card to stage a 3-way shootout.</p></div>
+    <div class="compare-bar reveal">
+      <select id="compareA" class="select big" aria-label="Jet A"></select><div class="vs">VS</div>
+      <select id="compareB" class="select big" aria-label="Jet B"></select>
+      <button class="btn btn-gold btn-small magnetic" id="randomDuel">🎲 Random duel</button>
+      <button class="btn btn-ghost btn-small" id="copyCompare">⧉ Copy verdict</button>
+    </div>
+    <div id="cmpTray" class="cmp-tray" aria-live="polite"></div>
+    <div class="compare-grid reveal" id="compareGrid"></div>
+    <div class="verdict" id="verdict" role="status"></div>
+  </div>
+</section>
+
+<section id="financing" class="section section-dark">
+  <div class="container fin-grid">
+    <div class="reveal">
+      <div class="sec-tag amber"><span class="tag-num">04</span> APEX CAPITAL — SOVEREIGN FINANCING</div>
+      <h2>$80M jet.<br><span class="grad-gold">$1.1M / month.</span></h2>
+      <p>Operating leases, fly-now-pay-later, and resource-backed structures for ministries. Private buyers: 10–70% down, 3–15 yr terms, balloon available.</p>
+      <div class="fin-cards">
+        <div class="fin-card"><h4>◈ Operating Lease</h4><p>60 mo, return or buy. Maintenance included. From 6.9% APR.</p><b>Most popular</b></div>
+        <div class="fin-card"><h4>⬣ Sovereign Loan</h4><p>Up to 15 yrs, 24-mo grace. Lloyd's escrow, Sharia-compliant tranche.</p><b>0% down for AAA</b></div>
+        <div class="fin-card"><h4>⬢ Trade-In</h4><p>MiG-21s, F-4s, Hawks as credit. We handle disposal + ferry.</p><b>Up to $8M credit</b></div>
+      </div>
+      <div class="apr-note">All structures subject to end-user &amp; export approval. NDA on request.</div>
+    </div>
+    <div class="calc-card reveal tilt-sm">
+      <div class="calc-head"><h3>Monthly cost calculator</h3><span class="live-dot">● LIVE</span></div>
+      <label>Jet<select id="calcJet" class="select full"></select></label>
+      <label>Down payment — <strong id="downLabel">30%</strong><input type="range" id="calcDown" min="10" max="70" step="5" value="30" /></label>
+      <label>Term — <strong id="termLabel">10 years</strong><input type="range" id="calcTerm" min="3" max="15" step="1" value="10" /></label>
+      <label>APR — <strong id="aprLabel">7.5%</strong><input type="range" id="calcApr" min="4" max="12" step="0.5" value="7.5" /></label>
+      <div class="calc-out">
+        <div><span>Financed</span><b id="calcFin">—</b></div>
+        <div><span>Total interest</span><b id="calcInt">—</b></div>
+        <div class="grand"><span>Est. monthly</span><b id="calcMonthly" class="grad-gold">—</b></div>
+        <div class="calc-bars" id="calcBars" aria-hidden="true"><i id="barDown"></i><i id="barFin"></i></div>
+        <div class="calc-legend"><span><i class="sw d"></i>Down</span><span><i class="sw f"></i>Financed</span><span>Delivery + training ✓</span></div>
+      </div>
+      <button class="btn btn-gold full magnetic" id="calcCTA">Pre-qualify with this payment →</button>
+      <p class="fine">Estimate only. Final offer after KYC + end-user review.</p>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="section">
+  <div class="container">
+    <div class="sec-head reveal"><div class="sec-tag"><span class="tag-num">05</span> WHITE-GLOVE OWNERSHIP</div>
+      <h2>We don't drop-ship <span class="grad-gold">fighters.</span></h2>
+      <p>Acceptance flight, registration, ferry, training — handled. Packages below are also selectable at checkout.</p></div>
+    <div class="svc-grid" id="svcGrid"></div>
+    <div class="process reveal">
+      <div class="step"><b>01</b><h4>Reserve</h4><p>$250k refundable deposit locks your tail for 14 days.</p></div>
+      <div class="step"><b>02</b><h4>Clear</h4><p>DSP-5 + end-user certs filed. 92% clear &lt;30 days.</p></div>
+      <div class="step"><b>03</b><h4>Accept</h4><p>Back-seat flight at Mojave. Reject = refund.</p></div>
+      <div class="step"><b>04</b><h4>Operate</h4><p>Worldwide ferry + 2 pilots trained free.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-dark">
+  <div class="container">
+    <div class="sec-head reveal"><div class="sec-tag amber"><span class="tag-num">06</span> CLEARED BUYERS — 4.9/5 AVG</div><h2>Trusted where it <span class="grad-gold">matters.</span></h2></div>
+    <div class="rev-shell reveal">
+      <button class="icon-btn" id="revPrev" aria-label="Previous review">‹</button>
+      <div class="rev-viewport"><div class="rev-track" id="revTrack">
+        <div class="rev"><div class="stars">★★★★★</div><p>"APEX delivered two Vipers in 38 days — cleared, crewed, combat-ready. Flawless paperwork."</p><b>— Air Chief, undisclosed African AF • 2× F-16V</b></div>
+        <div class="rev"><div class="stars">★★★★★</div><p>"Bought a Gripen E for aggressor work. The acceptance flight sold me — the jet is mint."</p><b>— CEO, US aggressor firm • Gripen E</b></div>
+        <div class="rev"><div class="stars">★★★★★</div><p>"Traded four F-5s toward Rafales. Financing + spares + sim, one contract, zero drama."</p><b>— MOD Director, SE Asia • 2× Rafale</b></div>
+        <div class="rev"><div class="stars">★★★★★</div><p>"Escrow held until our pilot signed the acceptance. That is how you sell a $90M jet."</p><b>— Procurement Head, Gulf State • F-15EX</b></div>
+      </div></div>
+      <button class="icon-btn" id="revNext" aria-label="Next review">›</button>
+    </div>
+    <div class="rev-dots" id="revDots"></div>
+  </div>
+</section>
+
+<section id="faq" class="section">
+  <div class="container faq-wrap">
+    <div class="reveal">
+      <div class="sec-tag"><span class="tag-num">07</span> CLEARANCE &amp; LOGISTICS</div>
+      <h2>Can I actually buy a fighter jet?</h2>
+      <p>Yes — if eligible. Governments buy capable; collectors buy Exhibition-category. Full briefing on every call.</p>
+      <div class="faq-card"><b>⏱ 2h response</b><p>Send your mission + budget. Broker replies with 2–3 tail options and clearance odds.</p><a href="#top" class="btn btn-gold btn-small" id="faqCTA">Check eligibility →</a></div>
+    </div>
+    <div id="faqList" class="reveal"></div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container cta-inner reveal">
+    <div><div class="sec-tag amber">NDA AVAILABLE • ITAR COUNSEL ON STAFF</div><h2>Talk to a broker in 15 minutes.</h2><p>No obligation. We reply within 2 business hours with tails, pricing &amp; clearance odds.</p>
+    <div class="cta-points"><span>✓ Tail options</span><span>✓ Export odds</span><span>✓ Finance quote</span></div></div>
+    <form class="cta-form" id="leadForm" novalidate><input id="leadEmail" type="email" placeholder="you@ministry.gov / company.com" aria-label="Email" /><button class="btn btn-gold magnetic" type="submit">Request call →</button></form>
+  </div><span id="leadMsg" role="status"></span>
+</section>
+
+<footer>
+  <div class="container foot-grid">
+    <div><div class="brand-title">APEX AEROSPACE ▲</div><p>DDTC-registered brokerage. Concept demo — prices, specs &amp; availability illustrative. All sales subject to US ITAR / EAR + seller-nation approval.</p><div class="foot-badges"><span>DDTC</span><span>LLOYD'S</span><span>EASA 145</span><span>FAA</span></div></div>
+    <div><h5>MARKETPLACE</h5><a href="#fleet">Fleet</a><a href="#compare">Compare Lab</a><a href="#financing">Financing</a><a href="#services">Services</a></div>
+    <div><h5>COMPANY</h5><a href="#flagship">Flagship Raptor</a><a href="#faq">Compliance FAQ</a><a href="#top">Back to top ↑</a></div>
+    <div><h5>HEADQUARTERS</h5><p>Mojave Air &amp; Space Port<br>Hangar 77, CA 93501<br>sales@apex-aero.demo<br>+1 (661) 555-0147</p><p class="foot-status"><span class="pulse sm"></span> <span id="footClock">--:-- UTC</span> • ALL SYSTEMS NOMINAL</p></div>
+  </div>
+  <div class="foot-base">© 2026 APEX Aerospace (concept demo). Fly safe. <span>VISA • WIRE • ESCROW • SOVEREIGN LC</span></div>
+</footer>
+</main>
+
+<button id="backTop" aria-label="Back to top">↑</button>
+
+<div class="drawer-bg" id="drawerBg"></div>
+<aside class="drawer" id="cartDrawer" aria-label="Shopping cart" role="dialog" aria-modal="true">
+  <div class="drawer-head"><div><h3>Your hangar (<span id="drawerCount">0</span>)</h3><small>🛡 Escrow via Lloyd's • 14-day lock</small></div><button class="icon-btn" id="cartClose" aria-label="Close cart">✕</button></div>
+  <div class="drawer-items" id="cartItems"></div>
+  <div class="drawer-addons"><h4>☰ Mission packages <span id="addonHint">— tap to add</span></h4><div id="addonList"></div>
+    <div class="promo"><input id="promoInput" placeholder="Promo / trade code (try APEX10)" aria-label="Promo code" /><button id="promoBtn">Apply</button></div>
+  </div>
+  <div class="drawer-foot">
+    <div class="tot-row"><span>Jets</span><b id="cartJets">$0</b></div>
+    <div class="tot-row"><span>Packages</span><b id="cartSubtotal">$0</b></div>
+    <div class="tot-row discount hidden" id="discRow"><span>Promo APEX10 (−10% pkgs)</span><b id="cartDisc">−$0</b></div>
+    <div class="tot-row muted"><span>Ferry + training + escrow</span><b class="green">Included ✓</b></div>
+    <div class="tot-row grand"><span>Total</span><b id="cartTotal">$0</b></div>
+    <button class="btn btn-gold full magnetic" id="checkoutBtn">Proceed to checkout →</button>
+    <div class="drawer-links"><button class="link" id="clearCart">Clear hangar</button><button class="link" id="continueBtn">Continue browsing →</button></div>
+  </div>
+</aside>
+
+<div class="modal-bg" id="modalBg"><div class="modal" id="modalBox" role="dialog" aria-modal="true"></div></div>
+<div class="toast-stack" id="toastStack" aria-live="polite"></div>
+<div class="toast" id="toast" style="display:none"></div>
+<canvas id="confetti" aria-hidden="true"></canvas>
+
+<script src="script.js"></script>
+</body>
+</html>
